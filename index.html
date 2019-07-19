@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radan Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/main.js"></script>
+    
+</head>
+<body>
+
+    
+        <div>
+                <ul class="header">
+                    <li><a href="#menCollection" onclick="menClick()"> MEN</a></li>
+                    <li><a href="#womenCollection" onclick="womenClick()"> WOMEN</a></li>
+                    <li><a href="#kidsCollection" onclick="kidsClick()"> KIDS</a ></li>
+                   
+                    <li><a href="#allCollection" onclick="allClick()"> ALL COLLECTION</a></li>
+                    <li  style="justify-content: right" ><a href="#register" class="rs" > REGISTER</a></li>
+                   
+                   
+                </ul>
+            </div>
+        
+        
+        
+    <div id="allCollection">
+
+            <div class="sildeshow-container">
+                    <div style="display: block" class="mySlides fade">
+                        <div class="numbertext">1/3</div>
+                        <img src="./images/womenf.jpg" style="width:100% ; height: 600px;"/>
+                        <div class="text">Women</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2/3</div>
+                        <img src="./images/menshirt.jpg" style="width:100% ;     height: 600px;" />
+                        <div class="text">Men</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3/3</div>
+                        <img src="./images/kidsf.jpg" style="width:100%; height: 600px;" />
+                        <div class="text">Kids</div>
+                    </div>
+            
+                    <!--https://www.w3schools.com/charsets/ref_utf_dingbats.asp-->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                   </div>
+                   <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+            
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+<div class="maindiv">
+<div  id="menCollection">
+<h2><i> <a href="#">Men Collection</a></i></h2>
+<table >
+    <tr>
+        <td><a href="#shoes"><img src="./images/menshoes.jpg" class="shoes"></a></td>
+        <td><a href="#tshirt"><img src="./images/menshirt.jpg" class="tshirt"></a></td>
+        <td><a href="#jeans"><img src="./images/jeans.jpg" class="jeans"></a></td>
+
+    </tr>
+</table>
+</div>
+
+<div  id="womenCollection">
+        <h2><i><a href="#"> Women Collection </a></i></h2>
+    <table>
+        <tr>
+        <td><a href="#shoes"><img src="./images/womenshoes.jpg" class="shoes"></a></td>
+        <td><a href="#tshirt"><img src="./images/womenshirt.jpg" class="tshirt"></a></td>
+        <td><a href="#jeans"><img src="./images/womenjeans.jpg" class="jeans"></a></td>
+
+        </tr>
+    </table>
+</div>
+
+<div  id="kidsCollection">
+        <h2><i><a href="#">Kids Collection </a></i></h2>
+    <table>
+        <tr>
+        <td><a href="#shoes"><img src="./images/kidsshoes.jpg" class="shoes"></a></td>
+        <td><a href="#tshirt"><img src="./images/kidstshirt.jpg" class="tshirt"></a></td>
+        <td><a href="#jeans"><img src="./images/kidsjeans.jpg" class="jeans"></a></td>
+
+        </tr>
+    </table>
+</div>
+</div>
+
+
+
+
+<footer>
+    <ul>
+        <li><a href="#about"> About</a></li>
+        <li><a href="#contact"> Contact</a></li>
+       
+        <li><a href="#impressum"> Impressum</a></li>
+
+    </ul>
+    <h4 style="text-align: center; color:white">  &copy; Copyright Mohammad Radan,2019   </h4>
+    
+</footer>
+
+</body>
+</html>
